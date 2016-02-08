@@ -1,0 +1,29 @@
+//  TODO: Write some awesome Swift code, or import libraries like "Foundation",
+//  "Dispatch", or "Glibc"
+
+let cinco = "Bingo"
+let dos = "par"
+let uno = "impar"
+
+for m in 1...100 {
+if  m < 30 || m > 40 {
+    if m % 5 == 0 {
+        print ( "\(m) \(cinco)")
+        
+    }
+    else if m % 2 == 0 {
+        print ( "\(m) \(dos)")
+        
+    }
+    
+   
+    else   {
+        print ( "\(m) \(uno)")
+        
+    }
+    }
+    else {
+      
+        print ( "\(m)  'VIVA SWIFT'")
+        }
+    }
